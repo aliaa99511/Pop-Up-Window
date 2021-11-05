@@ -1,0 +1,47 @@
+
+
+.popwindow{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+                     url(../images/san-francisco.jpg);
+    background-size: 100% 755px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 755px;
+    color: white;
+
+}
+
+.content{
+    padding-top: 300px;
+    margin-left: 300px;
+}
+.btn {
+    margin-top: 15px!important;
+    margin-left: 200px!important;
+    padding: 8px 114px!important;
+    font-size: 22px!important
+}
+.modall {
+    background-color: white;
+    width: 700px;
+    border: 2px solid;
+    position: absolute;
+    /*top: 17%;*/
+    top: -343px;
+    left: 23%;
+    z-index: 111;
+    padding: 40px;
+    transition: all 0.7s ease-in-out;
+}
+.close {
+    cursor: pointer!important;
+    margin-left: 32px!important;
+    margin-bottom: 9px!important;
+    margin-top: -27px!important;
+    margin-right: -21px!important;
+    font-size: 29px!important;
+
+}
+.modall p {
+    line-height: 29px;
+}
